@@ -1,0 +1,74 @@
+canonical_identifier: bkk:krp/KR3a0095/v1
+canonical_location: https://kanripo.org/bkk/KR3a0095/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 世緯
+  date: '2015-08-24 23:00:56.207781'
+  source:
+    repository: kanripo
+    path: KR3a0095
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR3a0095_000.yaml, hash: 'sha256:bfa40c1eb481044ac3b452805c4accd85b31ecb37d885703dcb47a8c05069e09'}
+  - {seq: 1, filename: KR3a0095_001.yaml, hash: 'sha256:e4e30c6267f70b8c9c20c6e4c78170c502b54f200a85050148be25571ab1ae7e'}
+  - {seq: 2, filename: KR3a0095_002.yaml, hash: 'sha256:f51200c71b8cf615e352b858b46e157c1c0ddd6fd037ac684465bdb6c5dc56a4'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3a0095_000.markers.yaml, hash: 'sha256:2356b76b4bbb7f5062ac0ce69c496d5011cf551f9d0f518a4f505e4acaa36eae'}
+  - {seq: 1, role: markers, filename: assets/KR3a0095_001.markers.yaml, hash: 'sha256:fecd3cb3cc0cbea6a1b511644f3e5f5cb7e7b21c6adce607121615183c39d9ec'}
+  - {seq: 2, role: markers, filename: assets/KR3a0095_002.markers.yaml, hash: 'sha256:ef552d37b991c68504bc00326225ed960569cb06d0c959cfbd5c8c3d83ede331'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3a0095_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 305
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3a0095_WYG_000-3a
+    span:
+    - body
+    - 305
+    - 710
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3a0095_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 6419
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3a0095_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 7816
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:e6388c3ecfa5c8f331953a0b9bcbec3a81de15f7a59ec24f21c3de83792e18f5
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
